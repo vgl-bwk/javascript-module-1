@@ -1,4 +1,3 @@
-let nameOfPerson = 'Luke';
 let ageOfPerson = 47;
 let currentYear = 2022;
 
@@ -6,6 +5,12 @@ function sub( a, b) {
     return a - b;
 }
 
-let birthYear = sub( currentYear, ageOfPerson)
+console.log(sub( currentYear, ageOfPerson));
 
-console.log(`this is my friend ${nameOfPerson}, he's ${ageOfPerson}. That means he was born in ${birthYear}.`);
+const nameOfPerson = 'Luke';
+
+function greet(a){
+    return "This is my friend " + a + ". He was born in " + sub( currentYear, ageOfPerson)
+}
+
+console.log(greet(nameOfPerson));
