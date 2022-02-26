@@ -18,6 +18,8 @@ function report(){
   return "Students are " + percentage(students) + "% of the class, mentors are the remaining " + percentage(mentors) + "%";
 }
 
+console.log(report())
+
 function greet(a){
   let intro = "Hello "
   let cIntro = intro.toLocaleUpperCase()
@@ -28,7 +30,6 @@ function greet(a){
   return cIntro + cName + cOutro
 }
 
-console.log(report())
 console.log(greet(mentor1))
 console.log(greet(mentor2))
 console.log(greet(mentor3))
