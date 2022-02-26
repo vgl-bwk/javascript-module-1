@@ -1,3 +1,6 @@
-// Start by creating a variable `message`
+var firstName ="Daniel ";
+var secondName ="Alejandro";
+const wholeName = firstName + secondName;
+const wholeNameLength = wholeName.length;
 
-console.log(message);
+console.log(`My full name is ${wholeName} and it is ${wholeNameLength} characters long.`);
