@@ -5,29 +5,21 @@ var mentor4 = "Rob";
 var mentor5 = "Yohannes";
 let mentors = 8;
 let students = 15;
-const sum = mentors + students;
 
-
-function percentage(a){
-  let Percent = (a/sum)*100;
-  let pRound = Math.round (Percent);
-  return pRound;
-}
-  
-function report(){
-  return "Students are " + percentage(students) + "% of the class, mentors are the remaining " + percentage(mentors) + "%";
+function percentage(a, b){
+  return  Math.round ((a/(a +b))*100);
 }
 
-console.log(report())
+function message(a, b) {
+  return "Students are " + percentage(a, b) + "% of the class, mentors are the remaining " + percentage(b, a) + "%"
+}
+
+// YO DAWG! I HERD U LEIK FUNKTIUNZZ!!! //
+
+console.log(message (students, mentors))
 
 function greet(a){
-  let intro = "Hello "
-  let cIntro = intro.toLocaleUpperCase()
-  let outro = ", welcome to our class!"
-  let cOutro = outro.toLocaleUpperCase()
-  let name = a
-  let cName = a.toLocaleUpperCase()
-  return cIntro + cName + cOutro
+  return `HELLO ${a.toUpperCase()} WELCOME TO OUR CLASS!!`
 }
 
 console.log(greet(mentor1))

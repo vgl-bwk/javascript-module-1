@@ -1,15 +1,7 @@
-function halve(number) {
+function half(number) {
   return number/2
 }
 
-var result = halve(12);
-
-console.log(result);
-
-var result = halve(72);
-
-console.log(result);
-
-var result = halve(886);
-
-console.log(result);
+console.log(half(12));
+console.log(half(72));
+console.log(half(886));

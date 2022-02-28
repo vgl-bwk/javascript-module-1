@@ -1,5 +1,3 @@
-const nameut = "  Daniel ";
-const name = nameut.trim()
-const nameLength = name.length
+const nameUt = "  Daniel ";
 
-console.log(`My name is Daniel and it is ${nameLength} characters long`);
+console.log(`My name is ${nameUt.trim()} and it is ${nameUt.trim().length} characters long`);
