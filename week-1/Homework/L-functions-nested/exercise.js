@@ -14,8 +14,6 @@ function message(a, b) {
   return "Students are " + percentage(a, b) + "% of the class, mentors are the remaining " + percentage(b, a) + "%"
 }
 
-// YO DAWG! I HERD U LEIK FUNKTIUNZZ!!! //
-
 console.log(message (students, mentors))
 
 function greet(a){
