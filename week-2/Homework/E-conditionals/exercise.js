@@ -6,8 +6,18 @@
   If Daniel is a student, print out "Hi, I'm Daniel, I'm a student."
 */
 
-var name = "Daniel";
-var danielsRole = "mentor";
+var personName = "Daniel";
+var personRole = "mentor";
+
+function greeting(role) {
+  if (role === "mentor"){
+    console.log(`Hi, I'm ${personName}, I'm a ${personRole}`);
+  }
+  else {
+    console.log(`Hi, I'm ${personName}, I'm a student`);
+}
+}
+ 
 
 /* 
 EXPECTED RESULT
