@@ -1,7 +1,3 @@
-function exponential(number) {
-  return number * number;
-}
-
-function isEven(number) {
-  return number % 2 === 0;
+for (let i = 5; i < 20; i++) {
+  if (i % 2 === 0) console.log("The exponential of " + i + " is " + (i * i));
 }
