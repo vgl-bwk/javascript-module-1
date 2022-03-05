@@ -3,12 +3,10 @@ const groupB = ["Travis", "Muhammad", "Ebenezer", "Frida", "Tajaldeen"]
 const groupC = ["Sigfried", "Amy", "Mukanda", "Chad", "Rigoberta"]
 
 function secondMatchesAmy(groupX) {
-  if (groupX[1]= "Amy") {
+  if (groupX[1] === "Amy") {
     return "Second index matched!";
   }
-  else {
-  return "Second index not matched";
-}
+return "Second index not matched";
 }
 
-console.log(secondMatchesAmy(groupA));
+console.log(secondMatchesAmy(groupB));

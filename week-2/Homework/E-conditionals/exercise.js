@@ -17,7 +17,8 @@ function greeting(role) {
     console.log(`Hi, I'm ${personName}, I'm a student`);
 }
 }
- 
+
+greeting(personRole)
 
 /* 
 EXPECTED RESULT

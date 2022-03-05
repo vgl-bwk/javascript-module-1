@@ -6,17 +6,18 @@
 */
 
 function isNegative(number) {
-  return (number < 0)
+  return number < 0
 }
 
 function isBetween5and10(number){
-  return (number <= 10 && number >= 5)
+  return number <= 10 && number >= 5
 }
+//what makes a name 'short'?
 function isShortName(string){
-  return (string.length > 6)
+  return string.length >= 6
 }
 function startsWithD(string){
-  return (string[0] === "D")
+  return string[0] === "D"
 }
 
 /* 
