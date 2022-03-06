@@ -3,7 +3,7 @@
 	https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith
 */
 
-function getDayStartWithT (array) {
+function daysT (array) {
   const days =[]
   for (let i = 0; i< array.length ; i++) {
     const day= array[i]
@@ -11,6 +11,7 @@ function getDayStartWithT (array) {
     days.push(day)
   }
   }
+  return days
 }
 
 const daysOfWeek = [
@@ -23,4 +24,4 @@ const daysOfWeek = [
   "Sunday",
 ];
 
-console.log(getDayStartWithT(daysOfWeek))
+console.log(daysT(daysOfWeek));
