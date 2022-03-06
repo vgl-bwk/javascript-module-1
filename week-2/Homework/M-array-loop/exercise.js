@@ -4,14 +4,12 @@
 */
 
 function daysT (array) {
-  const days =[]
   for (let i = 0; i< array.length ; i++) {
     const day= array[i]
     if(day.startsWith('T')){
-    days.push(day)
+    console.log(day)
   }
   }
-  return days
 }
 
 const daysOfWeek = [
@@ -24,4 +22,4 @@ const daysOfWeek = [
   "Sunday",
 ];
 
-console.log(daysT(daysOfWeek));
+daysT(daysOfWeek);
