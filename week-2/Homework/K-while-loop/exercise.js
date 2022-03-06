@@ -7,14 +7,15 @@
 */
 
 let n = 10;
-let initialValue = 1;
 
 function sumTillNum(num){
-	while (initialValue < num){
-		console.log("Sum from 0 to " + initialValue + " is: " (initialValue + 1));
-		initialValue = initialValue + 1;
-}
-	console.log("Sum from 0 to " + n + " is: " + n)
+	let counter = 0;
+	let result = 0;
+	while (counter <= num){
+		result += counter;
+		counter++;
+		}
+	return result
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
